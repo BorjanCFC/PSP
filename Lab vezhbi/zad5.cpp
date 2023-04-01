@@ -142,9 +142,9 @@ void func(SLL &l, int x){
             nov->link = p->link;
             p->link = nov;
             p = nov->link;
-        }
+        }else{
         p = p->link;
-        
+        }
     }
 }
 
