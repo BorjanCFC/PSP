@@ -89,7 +89,7 @@ class stanbenProstor : public prostor {
         brParking = s.brParking;
     }
 
-    stanbenProstor& operator=(const stanbenProstor& s){
+    stanbenProstor &operator=(const stanbenProstor& s){
 
     if (this == &s) {
         return *this;
