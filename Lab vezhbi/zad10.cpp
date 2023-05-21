@@ -108,7 +108,7 @@ class stanbenProstor : public prostor {
         cout<<"Broj na parking mesta: "<<brParking<<endl;
     }
 
-    float presmetajCena(float cenaKvadrat){
+    float presmetajCena(){
     
         float osnovnaCena = prostor::presmetajCena();
     
